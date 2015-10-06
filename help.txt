@@ -1,0 +1,24 @@
+app created from https://github.com/GoogleCloudPlatform/appengine-python-flask-skeleton
+sudo apt-get install libxmlsec1-dev
+sudo apt-get install swig
+pip install python-saml -> https://github.com/onelogin/python-saml
+
+flask -> https://github.com/onelogin/python-saml/tree/master/demo-flask
+pip install flask-login
+
+
+#generate key and cert
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout sp.key -out sp.crt
+
+
+otro tuto -> http://www.scriptscoop.net/t/5d94bd18ded7/saml2-service-provider-in-python.html
+http://developer.okta.com/docs/guides/setting_up_a_saml_application_in_okta.html
+handerson.contreras@laureate.net
+pip install flask flask-login pysaml2
+
+
+laureatetest.okta.com
+suffix:test
+
+pip install flask flask-login pysaml2 -t lib
+sudo pip install pyOpenSSL==0.14
